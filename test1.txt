@@ -1,4 +1,4 @@
-changed
+changed css
 please refere stick notes in lap
 1 .inline css
 <h1 style="color: black;background-color: red;">Apple</h1>
@@ -32,3 +32,175 @@ exapmle files
 </body>
 </html>
 
+external css 
+create new css file and add to html file 
+examlple
+
+ <link rel="stylesheet" href="Style.css">
+ <h1>Hello</h1>
+
+ h1{
+  background-color: green;
+  color: beige;
+  margin: 50px;
+  padding: 2px;
+ }
+
+
+margin
+<style>
+  .one{
+    background-color: red;
+    height: 150px;
+    width: 110px;
+
+  }
+  .two{
+    background-color: blue;
+    height: 150px;
+    width: 110px;
+    margin-top: 20px;
+
+  }
+</style>
+<div class="one" >
+  
+</div>
+<div class="two" >
+
+</div>
+
+Box Model
+
+<style>
+  div{
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    padding-left: 10px;
+  }
+  
+</style>
+<div style="color: white;">
+    Hi How Are You I Hope You Are Doing Good
+</div>
+
+
+border excercise
+<style>
+  div{
+    background-color: black;
+    border-color: red ;
+     border-width: 10px;
+    border-style: solid;
+  
+    height: 500px;
+    width: 300px;
+
+  }
+</style>
+
+<div>
+  </div>
+
+
+  
+<style>
+  .one{
+    margin: 30px;
+    height: 80px;
+    font-size: 35px;
+    padding-top: 19px;
+    
+  
+  }
+  .two{
+    margin: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+
+
+  }
+</style>
+<center>
+<div style="background-color: black; color: yellowgreen;" class="one">
+  Error Makes Clever
+</div>
+<div style="background-color: darkgray;" class="two" >
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis corporis explicabo eligendi animi eos molestias illo eveniet tenetur a architecto quas adipisci quibusdam quasi porro suscipit voluptas accusantium, tempora ea deserunt eius nesciunt rem? Nihil ullam ad, illum dolorem laborum fugit explicabo reiciendis nulla voluptatibus ex error provident aliquid architecto quasi magni nostrum. Illo, vitae saepe. Et dolorum velit, quia sequi magni nostrum suscipit explicabo neque similique modi error architecto esse perspiciatis nisi, animi eveniet commodi quibusdam quo autem odio dicta laborum, ipsam nemo. Mollitia perferendis, reprehenderit consectetur nostrum eligendi iure cupiditate possimus quis molestiae doloribus dolores quam vel.
+</div>
+</center>
+
+
+margin excersice 
+<style>
+  .one{
+    margin: 30px;
+    height: 80px;
+    font-size: 35px;
+    padding-top: 19px;
+    
+  
+  }
+  .two{
+    margin: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    height: 100px; 
+    padding: 30PX;
+
+
+
+  }
+</style>
+<center>
+<h1 style="background-color: black; color: yellowgreen;" class="one">
+  Error Makes Clever
+</h1>
+<p style="background-color: darkgray;" class="two" >
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perferendis corporis explicabo eligendi animi eos molestias illo eveniet tenetur a architecto quas adipisci quibusdam quasi porro suscipit voluptas accusantium, tempora ea deserunt eius nesciunt rem? Nihil ullam ad, illum dolorem laborum fugit explicabo reiciendis nulla voluptatibus ex error provident aliquid architecto quasi magni nostrum. Illo, vitae saepe. Et dolorum velit, quia sequi magni nostrum suscipit explicabo neque similique modi error architecto esse perspiciatis nisi, animi eveniet commodi quibusdam quo autem odio dicta laborum, ipsam nemo. Mollitia perferendis, reprehenderit consectetur nostrum eligendi iure cupiditate possimus quis molestiae doloribus dolores quam vel.
+</p>
+</center>
+
+tomo con 21/12
+<style>
+  h1{
+    background-color: red;
+    display: inline;
+    width: 100px;
+  }
+  p{
+    background-color: blue;
+    display: inline;
+    width: 100px;
+    
+  }
+  h2{
+    background-color: orange;
+    display: inline-block;
+    width: 100px;
+    
+  }
+  div{
+    background-color: palevioletred;
+    display: block;
+    width: 100px;
+    
+  }
+
+
+  
+
+</style>
+<h1>HELLO AJAY</h1>
+<P>Nice day </P>
+<h2>Hello baby</h2>
+<Div>Hi How are you</Div>
